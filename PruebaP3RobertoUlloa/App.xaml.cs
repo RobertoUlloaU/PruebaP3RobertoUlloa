@@ -10,11 +10,10 @@ namespace PruebaP3RobertoUlloa
         public App()
         {
             InitializeComponent();
-            MainPage = new MainPage();
+            
         }
 
-        public static string DatabasePath =>
-            Path.Combine(FileSystem.AppDataDirectory, "Dispositivos.db3");
+
     }
 }
 
