@@ -10,10 +10,11 @@ namespace PruebaP3RobertoUlloa
         public App()
         {
             InitializeComponent();
+
             
+            MainPage = new MainPage();
         }
-
-
     }
 }
+
 
